@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    background-color: #fff3ed; /* Match the card's background color */
+    background-image: url("/public/white-pattern.jpg");
+    background-size: contain; /* Keep the pattern intact */
+    background-repeat: repeat; /* Allow the background to repeat if necessary */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+    direction: rtl; /* Keep right-to-left text flow */
+}
+
+@font-face {
+    font-family: Tajawal;
+    src: url("/public/fonts/Tajawal-Regular.ttf");
+    font-weight: normal;
+}
+
+/* Apply to the entire document */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f99f6d; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ee7531; /* Hover color for the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+    border-radius: 5px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #e0e0e0; /* Hover color for the track */
+}
